@@ -16,7 +16,7 @@ An SSR video streaming frontend which uses doodstream.com as a backend. It is bu
 
 ## Live Demo
 
-A live demo of the project is available at [https://bokepbarat.pages.dev](https://bokepbarat.pages.dev/).
+A live demo of the project is available at [https://bokepteman.pages.dev](https://bokepteman.pages.dev/).
 
 ## Configuration
 
