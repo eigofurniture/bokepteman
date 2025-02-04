@@ -216,6 +216,7 @@ export default async function Video({ params }: PageProps) {
                     </div>
                 </CardContent>
             </Card>
+            <Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"/>
 <AdScript />
             <Ins id="1052552" data-width="300" data-height="112"/>
             <h2 className="text-2xl font-bold text-center my-4">
