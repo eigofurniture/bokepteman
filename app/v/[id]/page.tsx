@@ -11,7 +11,6 @@ import { Metadata, ResolvingMetadata } from "next";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { humanDuration, humanSize } from "@/lib/utils";
 import Script from "next/script";
-import AdCode from "@/components/ads";
 
 import { Button } from "@/components/ui/button";
 import CopyButton from "@/components/copy-button";
@@ -216,8 +215,6 @@ export default async function Video({ params }: PageProps) {
                     </div>
                 </CardContent>
             </Card>
-<Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js" crossOrigin="anonymous" strategy="lazyOnload"/>
-<AdCode/>
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
             </h2>
