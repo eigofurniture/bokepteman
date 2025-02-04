@@ -157,7 +157,7 @@ export default async function Video({ params }: PageProps) {
 <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
-                src={`https://${upstream}/e/${file.filecode}`}
+                src={`https://doodstream.com/e/${file.filecode}`}
                 scrolling="no"
                 title={file.title}
                 frameBorder={0}
