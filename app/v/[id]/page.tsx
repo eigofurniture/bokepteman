@@ -215,6 +215,7 @@ export default async function Video({ params }: PageProps) {
                     </div>
                 </CardContent>
             </Card>
+            <AdScript />
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
             </h2>
