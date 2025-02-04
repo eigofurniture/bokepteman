@@ -1,7 +1,7 @@
 "use client";
 import {useEffect} from 'react';
 
-export function GoogleAd() {
+const GoogleAd() {
   useEffect(() => {
     try {
       // @ts-ignore
@@ -17,3 +17,4 @@ export function GoogleAd() {
     />
   );
 }
+export default GoogleAd;
