@@ -19,13 +19,11 @@ class AdCodeWithoutRouter extends React.Component {
 
   render() {
     return (
-      <div className="container mx-auto text-center" aria-hidden={true}>
         <Ins
           className="adsbyjuicy"
           id="1052552" data-width="300" data-height="112"
         ></Ins>
         <Script dangerouslySetInnerHTML={{ __html: '(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052552});' }}></Script>
-      </div>
     );
   }
 }
