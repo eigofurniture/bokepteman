@@ -217,7 +217,7 @@ export default async function Video({ params }: PageProps) {
                 </CardContent>
             </Card>
 <Script data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js" crossOrigin="anonymous" strategy="lazyOnload"/>
-<GoogleAd/>
+<AdCode/>
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
             </h2>
