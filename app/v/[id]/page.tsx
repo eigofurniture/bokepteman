@@ -88,18 +88,18 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.title}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
-        url: `https://abgsquirt.pages.dev/v/${file.filecode}`,
+        url: `https://bokepteman.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://abgsquirt.pages.dev/favicon.ico'},
+            logo: 'https://bokepteman.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://abgsquirt.pages.dev'
+                url: 'https://bokepteman.pages.dev'
               }
         }
         const jsonLd2 = {
@@ -108,25 +108,25 @@ export default async function Video({ params }: PageProps) {
         headline: `${file.title}`,
         image: file.splash_img,
         description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
-        url: `https://bokepolos.pages.dev/v/${file.filecode}`,
+        url: `https://bokepteman.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
             name: `${SITENAME}`,
-            logo: 'https://bokepolos.pages.dev/favicon.ico'},
+            logo: 'https://bokepteman.pages.dev/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://bokepolos.pages.dev'
+                url: 'https://bokepteman.pages.dev'
               },
         interactionStatistic: {
             '@type': `InteractionCounter`,
                 userInteractionCount: `${file.views}`,
             interactionType: {
                 '@type': `ReadAction`,
-                target: `https://bokepolos.pages.dev/v/${file.filecode}`
+                target: `https://bokepteman.pages.dev/v/${file.filecode}`
             }  
         }
         }
