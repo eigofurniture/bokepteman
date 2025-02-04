@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import { useRouter } from 'next/navigation';
+import Script from "next/script";
 
 class AdCodeWithoutRouter extends React.Component {
   renderAds() {
@@ -23,7 +24,7 @@ class AdCodeWithoutRouter extends React.Component {
           className="adsbyjuicy"
           id="1052552" data-width="300" data-height="112"
         ></Ins>
-        <Script dangerouslySetInnerHTML={{ __html: '(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052552});' }}></Script>
+        <Script dangerouslySetInnerHTML={{ __html: '(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052552});' }}/>
     );
   }
 }
