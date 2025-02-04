@@ -1,35 +1,18 @@
-'use client';
-import React from 'react';
-import { useRouter } from 'next/navigation';
+import {useEffect} from 'react';
 
-class AdCodeWithoutRouter extends React.Component {
-  renderAds() {
-    (adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052552});
-  }
-
-  componentDidMount() {
-    this.renderAds();
-  }
-
-  componentDidUpdate(prevProps) {
-    if (this.props.router.asPath !== prevProps.router.asPath) {
-      this.renderAds();
+export function GoogleAd() {
+  useEffect(() => {
+    try {
+      // @ts-ignore
+      (adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052552});
+    } catch (err) {
+      console.error(err);
     }
-  }
+  }, []);
 
-  render() {
-    return (
-        <Ins
-          className="adsbyjuicy" id="1052552" data-width="300" data-height="112"
-        ></Ins>
-        <Script dangerouslySetInnerHTML={{ __html: '(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1052552});' }}></Script>
-    );
-  }
+  return (
+    <ins
+      id="1052552" data-width="300" data-height="112"
+    />
+  );
 }
-
-const AdCode = () => {
-  const router = useRouter();
-  return <AdCodeWithoutRouter router={router} />;
-};
-
-export default AdCode;
