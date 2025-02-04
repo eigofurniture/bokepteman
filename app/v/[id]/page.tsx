@@ -11,7 +11,7 @@ import { Metadata, ResolvingMetadata } from "next";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { humanDuration, humanSize } from "@/lib/utils";
 import Script from "next/script";
-import GoogleAd from "@/components/ads";
+import AdCode from "@/components/ads";
 
 import { Button } from "@/components/ui/button";
 import CopyButton from "@/components/copy-button";
